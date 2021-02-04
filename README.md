@@ -2,14 +2,14 @@
 Python Class Software Timer
 
 # Class parameters
-pytimer.software_timer(time, autoreload, function, compensation=1)
-### Time: Time (sec) to execute callback function.
+pytimer.software_timer(time, autoreload, function, compensation=1)\
+Time: Time (sec) to execute callback function.
 
-### Autoreload: If autoreload == 1, timer will execute function until .stop(). If 0, function will execute one time.
+Autoreload: If autoreload == 1, timer will execute function until .stop(). If 0, function will execute one time.
 
-### Function: Function to execute.
+Function: Function to execute.
 
-### Compensation: If compensation == 1, this class calculate time to execute function() and subtract this from user delay, to maintain fixed frequency. If 0, total delay of execution is: Time parameter + function exection time. Default is 1.
+Compensation: If compensation == 1, this class calculate time to execute function() and subtract this from user delay, to maintain fixed frequency. If 0, total delay of execution is: Time parameter + function exection time. Default is 1.
 
 # Example
 ```
